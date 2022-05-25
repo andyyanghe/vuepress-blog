@@ -16,6 +16,7 @@ msg='deploy'
 githubUrl=git@github.com:andyyanghe/vuepress-blog.git
 git config --global user.name "yangheng"
 git config --global user.email "123456789@qq.com"
+
 # if [ -z "$GITHUB_TOKEN" ]; then
 #   msg='deploy'
 #   githubUrl=git@github.com:andyyanghe/vuepress-blog.git
