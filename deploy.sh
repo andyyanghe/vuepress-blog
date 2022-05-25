@@ -23,11 +23,12 @@ git config --global user.email "123456789@qq.com"
 #   githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/andyyanghe/vuepress-blog.git
 #   git config --global user.name "xugaoyi"
 #   git config --global user.email "894072666@qq.com"
-fi
+# fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
+# git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
+git push -f $githubUrl master
 
 # deploy to coding pages
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
